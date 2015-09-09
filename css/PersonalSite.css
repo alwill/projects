@@ -1,0 +1,17 @@
+.navigation {
+
+    list-style-type: none;
+    background-color: navy;
+    height: 50px;
+    text-align: center;
+
+}
+
+li, a {
+    list-style-type: none;
+   display: inline;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    height: 50%;
+}
