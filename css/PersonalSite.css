@@ -1,17 +1,31 @@
-.navigation {
 
-    list-style-type: none;
-    background-color: navy;
-    height: 50px;
-    text-align: center;
+.banner {
+	margin:0px;
+	background-image: url("../Images/cards.jpg");
+	height: 900px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-right: 0;
+	padding-left: 0;
+	
+}
+
+.banner .container {
+  position: relative;
+  top:100px;
 
 }
 
-li, a {
-    list-style-type: none;
-   display: inline;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    height: 50%;
+.banner h1 {
+  color: #fff;
+  font-size: 60px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner p {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
 }
